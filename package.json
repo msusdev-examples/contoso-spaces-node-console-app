@@ -1,0 +1,20 @@
+{
+    "name": "contoso-spaces-console",
+    "description": "Contoso Spaces console application",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "app.js",
+    "bin": {
+        "contosospaces": "./app.js"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "accounting": "^0.4.1",
+        "chalk": "^5.0.0",
+        "commander": "^9.0.0",
+        "string-align": "^0.2.0"
+    }
+}
